@@ -1,6 +1,6 @@
-# price-intel-engine
-Database-backed price tracker with SQL change detection and price-drop alerts (SQLite + Python).
 # Price Intel Engine (SQLite + Alerts)
+
+Database-backed price tracker with SQL change detection and price-drop alerts (SQLite + Python).
 
 A database-backed price tracking system that stores price history across runs and detects price changes (drops/rises) using SQL window functions. Built for competitor monitoring and market intelligence workflows.
 
@@ -19,7 +19,8 @@ A database-backed price tracking system that stores price history across runs an
 - `reset_db.py` — creates `market_data.db` + tables and seeds sample data
 - `insert_run_and_prices.py` — inserts a baseline run (3 products)
 - `insert_run_with_changes.py` — inserts another run with simulated price changes (drop/rise)
-- `market_data.db` — generated database (create locally)
+
+> Note: `market_data.db` is generated locally and is not committed.
 
 ## How to run
 ```bash

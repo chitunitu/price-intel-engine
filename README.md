@@ -16,8 +16,8 @@ A database-backed price tracking system that stores price history across runs an
 - SQL window functions (`ROW_NUMBER()`)
 
 ## Project structure
-- `reset_db.py` — creates `market_data.db` + tables and seeds sample data
-- `insert_run_and_prices.py` — inserts a baseline run (3 products)
+- `reset_db.py` — creates `market_data.db` + tables and seeds sample data  
+- `insert_run_and_prices.py` — inserts a baseline run (3 products)  
 - `insert_run_with_changes.py` — inserts another run with simulated price changes (drop/rise)
 
 > Note: `market_data.db` is generated locally and is not committed.
